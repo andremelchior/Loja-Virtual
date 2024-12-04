@@ -16,6 +16,9 @@
             <div class="components-menu-container">
                 <ul class="components-list">
                     <li class="components-menu">
+                        <h3 class="menu border-menu" onclick="window.location.href='../index.php';">INICIO</h3>
+                    </li>
+                    <li class="components-menu">
                         <h3 class="menu1">PERIFÉRICOS</h3>
                     </li>
                     <li class="components-menu">

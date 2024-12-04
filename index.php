@@ -87,7 +87,7 @@
                         <h3 class="menu1">INICIO</h3>
                     </li>
 					<li class="components-menu">
-                        <h3 class="menu border-menu">PERIFÉRICOS</h3>
+                        <h3 class="menu border-menu" onclick="window.location.href='./Perifericos/perifericos.php';">PERIFÉRICOS</h3>
                     </li>
                     <li class="components-menu">
                         <h3 class="menu border-menu">COMPUTADORES</h3>

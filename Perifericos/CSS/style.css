@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1e1f;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    padding: 20px 0;
+    display: flex;
+    gap: 300px;
+    background-color: #333;
+    position: fixed;
+
+}
+
+.header-1 {
+    width: 20%;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.header-1 h1 {
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #e0115f;
+    border-left: 2px solid white;
+    padding: 7px 15px;
+    transition: 0.3s;
+}
+
+.header-1 h1:hover {
+    transition: 0.3s;
+    text-shadow: 0 0 10px #e0115f;
+}
+
+.components-menu-container {
+    width: 80%;
+}
+
+.components-list {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu1 {
+    color: white;
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    cursor: pointer;
+    border-bottom: 2px solid #e0115f;
+    text-shadow: 0 0 4px #e0115f;
+    color: #e0115f;
+}
+
+.menu {
+    color: white;
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu:hover {
+    transition: 0.3s;
+    color: #e0115f;
+    text-shadow: 0 0 4px #e0115f;
+}
+
+.border-menu {
+    display: inline-block;
+    position: relative;
+}
+
+.border-menu::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 30%;
+    border-bottom: 2px solid #e0115f;
+    transition: 0.3s;
+}
+
+.border-menu:hover::after {
+    transition: 0.3s;
+    width: 100%;
+}
+
+section {
+    width: 380px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    background-color: #333;
+    border: 2px solid grey;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 25px #e0115f;
+}
+
+section img {
+    width: 100%;
+}
+
+section h2 {
+    font-size: 25px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #e0115f;
+    padding: 10px 20px;
+}
+
+section p {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.container {
+    justify-content: center;
+    width: 100%;
+    padding: 150px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.title-container{
+    width: 100%;
+    padding: 3px 0 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title-text{
+    width: 75%;
+    margin: 30px 0 30px 0;
+}
+
+.title-text h2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+    color: #e0115f;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    padding: 24px 15px 0;
+    border-bottom: 5px solid #e0115f;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-footer {
+    width: 18%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-footer h2 {
+    font-size: 35px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    color: aliceblue;
+}
+
+.button {
+    width: 100px;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnTopo {
+    width: 80px;
+    height: 40px;
+    background-color: #333;
+    border: 2px solid #e0115f;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btnTopo a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.btnTopo:hover {
+    transition: 0.2s;
+    background-color: #555;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+address p {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+footer b {
+    color: #e0115f;
+}
